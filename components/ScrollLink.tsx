@@ -25,4 +25,5 @@ const ScrollLink = ({ children, ...props }: ScrollLinkProps) => {
     </Link>
   );
 };
+
 export default ScrollLink;

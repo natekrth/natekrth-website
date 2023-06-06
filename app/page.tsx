@@ -2,7 +2,7 @@
 
 import Image from 'next/image'
 import { Element } from 'react-scroll' 
-import ScrollLink from "@/components/ScrollLink";
+import ScrollLink from "@/components/ScrollLink"
 import { NextPage } from "next";
 
 
@@ -30,9 +30,6 @@ export default function Home() {
       >
         <section className="flex flex-col items-center gap-4">
           {/* add href with hash to an elementId */}
-          <ScrollLink className="btn" href="#section-1">
-            Scroll to Section 1
-          </ScrollLink>
           
         </section>
       </div>
